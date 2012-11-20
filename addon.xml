@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="addon.mythtv.powersave"
+       name="MythTV Powersave Addon"
+       version="0.1"
+       provider-name="takiaine">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension point="xbmc.service"
+             library="default.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>linux</platform>
+    <summary lang="en">Powersave addon for xbmc. Shutsdown xbmc when xbmc and mythtv are both idle. Used in unified frontend backend setup.</summary>
+  </extension>
+</addon>
